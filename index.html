@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Meeting Notes</title>
+        <link rel="icon" href="html_icon.png">
+    </head>
+    <body>
+        <header>
+            <span>
+                <nav>
+                        <a href="#overview">Overview</a>
+                        <a href="#agenda">Agenda</a>
+                        <a href="#media">Media</a>
+                        <a href="#form">Form</a>
+                </nav>
+            </span>
+            <div><h1>HTML Meeting Notes</h1></div>
+        </header>
+        <main>
+
+            <hr>
+            <section id="overview">
+                <h2>Overview</h2>
+                <p>Meeting topic: HTML Basics</p>
+                <p>Date: 10/1/2021</p>
+                <p>Attendance</p>
+                <ul>
+                    <li><p>Jerry Zhang</p></li>
+                </ul>
+            </section>
+            
+            <hr>
+            <section id="agenda">
+                <h2>Agenda</h2>
+                <h3>Unfinished from last meeting</h3>
+                <ol>
+                    <li><p><i>Markdown section links</i><p></li>
+                </ol>
+                <h3>New business</h3>
+                <ol>
+                    <li><p><em>How to write HTML</em></p></li>
+                </ol>
+                <br>
+                <h3>This meeting</h3>
+                <details>
+                    <summary>To-do Today</summary>
+                    <ol>
+                        <li><p>Figure out content for the meeting notes</p></li>
+                        <li><p><b>Make sure the notes contain meeting note stuff</b></p></li>
+                        <li><p><strong>Make sure the notes have the necessary elements</strong></p></li>
+                    </ol>
+                </details>
+            </section>
+
+            <hr>
+            <section id="media">
+                <h2>Media</h2>
+                <h3>My donut</h3>
+                <img src="donut.png" alt="Donut with coffee 3D render" width="400" height="400">
+                <h3>Video (minecraft tutorial)</h3>
+                <video width="320" height="240" controls>
+                    <source src="minceraft_tut.mp4" type="video/mp4">
+                    Minecraft Tutorial Video
+                </video>
+                <h3>Audio only</h3>
+                <audio controls>
+                    <source src="minceraft_tut.mp3", type="audio/mp3">
+                    Minecraft tutorial audio only
+                </audio>
+            </section>
+
+            <section id="form">
+            <form>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label>Name:</label>
+                    <input type="text"><br><br>
+                    <label>Category:</label><br><br>
+                    <input type="radio" name="category"><label>HTML</label><br><br>
+                    <input type="radio" name="category"><label>Git</label><br><br>
+                    <input type="radio" name="category"><label>Other</label><br><br>
+                    <label>Category (confirm): </label>
+                    <select>
+                        <option>HTML</option>
+                        <option>Git</option>
+                        <option>Other</option>
+                    </select>
+                    <br><br>
+                    <label>Department: </label>
+                    <input type="text" list="department">
+                    <datalist id="department">
+                        <option>CSE</option>
+                        <option>ECE</option>
+                    </datalist>
+                    <br><br>
+                    <label>Question:</label><br><br>
+                    <textarea></textarea><br><br>
+                    <label>Date: </label><input type="date"><br><br>
+                    <input type="checkbox">
+                    <label>I have read the <u>terms and agreements</u></label><br><br>
+                    <input type="submit">
+                </fieldset>
+            </form>
+            </section>
+
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
