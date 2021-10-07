@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Meeting Notes</title>
         <link rel="icon" href="html_icon.png">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
@@ -54,18 +55,27 @@
             <hr>
             <section id="media">
                 <h2>Media</h2>
-                <h3>My donut</h3>
-                <img src="donut.png" alt="Donut with coffee 3D render" width="400" height="400">
-                <h3>Video (minecraft tutorial)</h3>
-                <video width="320" height="240" controls>
-                    <source src="minceraft_tut.mp4" type="video/mp4">
-                    Minecraft Tutorial Video
-                </video>
-                <h3>Audio only</h3>
-                <audio controls>
-                    <source src="minceraft_tut.mp3" type="audio/mp3">
-                    Minecraft tutorial audio only
-                </audio>
+                <p invisible="true">Invisible element</p>
+                <span class="media-grid">
+                    <span class="column1">
+                        <h3>My donut</h3>
+                        <img src="donut.png" alt="Donut with coffee 3D render" width="400" height="400">
+                    </span>
+                    <span class="column2">
+                        <h3>Video (minecraft tutorial)</h3>
+                        <video width="320" height="240" controls>
+                            <source src="minceraft_tut.mp4" type="video/mp4">
+                            Minecraft Tutorial Video
+                        </video>
+                    </span>
+                    <span class="column3">
+                        <h3>Audio only</h3>
+                        <audio controls>
+                            <source src="minceraft_tut.mp3" type="audio/mp3">
+                            Minecraft tutorial audio only
+                        </audio>
+                    </span>
+                </span>
             </section>
 
             <section id="form">
